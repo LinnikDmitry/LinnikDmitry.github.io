@@ -17,3 +17,7 @@
 [Урок 14](https://linnikdmitry.github.io/lesson_14/ "") - "Сервис по подбору шрифтов"
 
 [Урок 14.1](https://linnikdmitry.github.io/lesson_14.1/ "") - Практика 2. Сверстал первый экран сайта
+
+[Урок 15](https://linnikdmitry.github.io/lesson_15/ "") - Псевдоклассы и псевдоэлементы.
+
+[Урок 15.1](https://linnikdmitry.github.io/lesson_15.1/ "") - Практика 3. Эффекты при наведении и адаптив первого экрана.
