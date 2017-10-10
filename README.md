@@ -12,6 +12,8 @@
 
 [Урок 13](https://linnikdmitry.github.io/lesson_13/ "") - Верстка формы в стиле Pixel Perfect
 
-[Урок 13.1](https://linnikdmitry.github.io/lesson_13.1/ "") - Сверстал шапку
+[Урок 13.1](https://linnikdmitry.github.io/lesson_13.1/ "") - Практика 1. Сверстал шапку
 
 [Урок 14](https://linnikdmitry.github.io/lesson_14/ "") - "Сервис по подбору шрифтов"
+
+[Урок 14.1](https://linnikdmitry.github.io/lesson_14.1/ "") - Практика 2. Сверстал первый экран сайта
