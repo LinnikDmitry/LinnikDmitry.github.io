@@ -1,5 +1,6 @@
 body {
-	background: url(../img/bg.jpg) repeat;
+	background: url(../img/bg.jpg) center left repeat;
+	z-index: 1;
 	
 }
 .fotorama {
@@ -8,6 +9,7 @@ body {
 	left: 50%;
 	margin-left: -450px;
 	margin-bottom: -300px;
-	border: 10px ridge #2f9698;
+	border: 10px solid #2f9698;
 	padding: 20px;
+	z-index: 0;
 }
