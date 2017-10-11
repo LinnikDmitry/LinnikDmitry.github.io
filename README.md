@@ -21,3 +21,5 @@
 [Урок 15](https://linnikdmitry.github.io/lesson_15/ "") - Псевдоклассы и псевдоэлементы.
 
 [Урок 15.1](https://linnikdmitry.github.io/lesson_15.1/ "") - Практика 3. Эффекты при наведении и адаптив первого экрана.
+
+[Урок 16](https://linnikdmitry.github.io/lesson_16/ "") - Слайдер на сайте.
