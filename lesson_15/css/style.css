@@ -82,3 +82,15 @@ h2 {
 .button:hover {
 	box-shadow: 0 2px 2px rgba(0,0,0,0.3);
 }
+.button-one:hover {
+  cursor: pointer;
+  background-color: #30a468;
+  color: yellow;
+  letter-spacing: 1px;
+}
+.button-two:hover {
+  cursor: pointer;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 900;
+}
