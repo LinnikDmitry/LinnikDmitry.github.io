@@ -23,3 +23,9 @@
 [Урок 15.1](https://linnikdmitry.github.io/lesson_15.1/ "") - Практика 3. Эффекты при наведении и адаптив первого экрана.
 
 [Урок 16](https://linnikdmitry.github.io/lesson_16/ "") - Слайдер на сайте.
+
+[Урок 16.1](https://linnikdmitry.github.io/lesson_16.1/ "") - Практика 4. Верстка блока с преимуществами. Слайдер.
+
+[Урок 17](https://linnikdmitry.github.io/lesson_17/ "") - Всплывающие окна.
+
+[Урок 17.1](https://linnikdmitry.github.io/lesson_17.1/ "") - Практика 5. Верстка всплывающих окон на сайте.
