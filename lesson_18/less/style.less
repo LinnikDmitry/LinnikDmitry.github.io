@@ -1,0 +1,175 @@
+/* Fonts family*/
+@font-face {
+	font-family: "MyriadProRegular";
+	src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+	src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+	url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "MyriadProBold";
+	src: url("../fonts/MyriadProBold/MyriadProBold.eot");
+	src: url("../fonts/MyriadProBold/MyriadProBold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/MyriadProBold/MyriadProBold.woff") format("woff"),
+	url("../fonts/MyriadProBold/MyriadProBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+body {
+	font-size: 10px;
+}
+.container-one{
+	width: 80rem;
+	height: 50rem;
+	margin: auto;
+	padding: 2rem 8rem;
+	background: url(../img/main-bg.jpg) center no-repeat;
+	background-size: 100%;
+}
+.tab {
+	position: relative;
+	width: 63rem;
+	margin-top: 50px;
+	.nav {
+		outline: none;
+		border: none;
+		height: 3rem;
+		position: absolute;
+		top:-3.2rem;
+		left: 0px;
+		margin-left: 1.5rem;
+		&-btn {
+			display: inline-block;
+			text-align: center;
+			margin-left: 1rem;
+			font-size: 2rem;
+			a {
+				padding: 0.1rem 1rem;
+				background-color: #fff;
+				color: #000;
+				border: 1px solid white;
+			}
+		}
+		.active {
+			a {
+				border: 1px solid #039ac9;
+			    background-color: #039ac9;
+			    color: #fff;
+			}
+		}
+	}
+	&-content {
+		padding: 2rem 4rem;
+		border-radius: 0.5rem;
+		background-color: #000;
+		border: 2.5rem solid #039ac9;
+		.entrance-form-input {
+			display: block;
+			padding: 2rem 2.5rem;
+			outline: none;
+			width: 48rem;
+			height: 6rem;
+			background-color: #1f1e1e;
+			margin-top: 3rem;
+			border: none;
+			box-shadow: inset 1px 1px 10px 1px rgba(0, 0, 0, 0.5);
+			border-radius: 0.5rem;
+			font-size: 2rem;
+			color: #fff
+		}
+		.entrance-form-link {
+			display: block;
+			margin-bottom: 1rem;
+			padding: 2rem 2.5rem;
+			color: #bc1d03;
+		}
+		.entrance-form-check {
+			position: relative;
+    	    height: 2rem;
+    	    padding: 1.5rem 2.7rem;
+    	    label{
+    	    	vertical-align: middle;
+    	    }
+    	    .btn {
+    	    	position: absolute;
+    	    	top: 1rem;
+    	    	right: -7.5rem;
+    	    	color: white;
+    	    	background: url(../img/button-bg.png) 0 0 no-repeat;
+    	    	border: none;
+    	    	outline: none;
+    	    	font-size: 2rem;
+    	    	padding: 0 3rem 0 2rem;
+    	    	vertical-align: middle;
+    	    	
+    	    }
+		}
+	}
+}
+
+.container-two {
+	background: url(../img/bg.jpg) center no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 7rem 20rem;
+    h1 {
+    	text-transform: uppercase;
+    	strong {
+    		font-size: 3.6rem;
+    		display: block;
+    		color: #0bbaf0;
+    	}
+    	span {
+    		font-size: 2.4rem;
+    		display: block;
+    		color: #0bbaf0;
+    	}
+    }
+    p {
+    	margin-top: 2rem;
+    	margin-bottom: 3rem;
+    	span {
+    		width: 12rem;
+    		display: block;
+    		border-bottom: 1px solid #cbcdce;
+    		margin: auto;
+    	}
+    }
+    .panel-group {
+    	margin: 0 auto;
+    	.collapse {
+    		.in {
+    			width: 99%;
+    			margin: auto;
+    		}
+    	}
+    	.panel {
+    		margin-top: 0.2rem;
+    		background: none;
+    	}
+    	.panel-default {
+    		border: none;
+    	}
+    	.panel-body {
+    		font-size: 2.2rem;
+    		line-height: 2.4rem;
+    		border: 0.3rem solid #dcdcdc;
+    		padding-bootom: 2rem;
+    		border-radius: 0.5rem;
+    		background-color: #fff;
+    	}
+    	.panel-heading {
+    		background-color: #0bbaf0;
+    		color: white;
+    		border: none;
+    		a {
+    			font-size: 2.3rem;
+    			text-decoration: none;
+    		}
+    	}
+    }
+}
