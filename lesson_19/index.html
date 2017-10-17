@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/favicon.ico">
+
+    <title>Starter Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">   
+  </head>
+
+  <body>
+
+    <div class="container-one">
+
+      <div class="tab">
+
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs animated slideInDown">
+          <li class="nav-btn active"><a href="#entrance" data-toggle="tab">Вход</a></li>
+          <li class="nav-btn"><a href="#reg" data-toggle="tab">Регистрация</a></li>          
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content wow fadeIn" data-wow-duration="2s">
+          <div class="tab-pane active" id="entrance">
+          	<form class="entrance-form" action="#">
+          		<input class="entrance-form-input wow flipInX" data-wow-delay="0.7s" type="text" placeholder="Ваше имя">
+          		<input class="entrance-form-input wow flipInX" data-wow-delay="0.7s" type="text" placeholder="Пароль">
+          		<a class="entrance-form-link wow bounceInLeft" data-wow-delay="1s" href="#">Забыли пароль?</a>
+          		<div class="entrance-form-check">
+          			<input class="wow bounceInLeft" data-wow-delay="1.2s" id="check" type="checkbox">
+          			<label class="wow bounceInLeft" data-wow-delay="1.2s" for="check">Напомнить мне</label>
+          			<button class="btn wow zoomIn" data-wow-delay="1.5s">Войти</button>
+          		</div>
+          		
+          	</form>
+          </div>
+          <div class="tab-pane" id="reg">...</div>
+          
+        </div>
+
+      </div>
+
+    </div><!-- /.container -->
+   
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/wow.min.js"></script>
+    <script>
+    	var wow = new WOW;
+    	wow.init();
+    </script>
+  </body>
+</html>
