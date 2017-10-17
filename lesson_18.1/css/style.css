@@ -337,6 +337,10 @@ section {
   .main {
     background-position: top left;
   }
+  .main-title h1 {
+    font-size: 3rem;
+    line-height: 1;
+  }
   .header {
     text-align: center;
   }
@@ -344,7 +348,7 @@ section {
     text-align: center;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 380px) {
   .main .phone-link {
     font-size: 1.5rem;
   }
