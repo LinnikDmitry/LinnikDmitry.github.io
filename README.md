@@ -29,3 +29,13 @@
 [Урок 17](https://linnikdmitry.github.io/lesson_17/ "") - Всплывающие окна.
 
 [Урок 17.1](https://linnikdmitry.github.io/lesson_17.1/ "") - Практика 5. Верстка всплывающих окон на сайте.
+
+[Урок 18](https://linnikdmitry.github.io/lesson_18/ "") - Табы и аккордеон на сайте.
+
+[Урок 18.1](https://linnikdmitry.github.io/lesson_18.1/ "") - Практика 6. Верстка блока с ценами
+
+[Урок 19](https://linnikdmitry.github.io/lesson_19/ "") - Анимация на CSS3.
+
+[Урок 19.1](https://linnikdmitry.github.io/lesson_19.1/ "") - Практика 7. Верстка блока с отзывами
+
+[Урок 20](https://linnikdmitry.github.io/lesson_20/ "") - Видео-фон на сайте.
