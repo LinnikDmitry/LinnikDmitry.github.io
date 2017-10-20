@@ -1,0 +1,78 @@
+body {
+	font-size: 10px;
+	margin: 0;
+}
+.main {
+	position: relative;
+	&-contact {
+		position: absolute;
+		z-index: 1;
+		height: 43rem;
+		text-align: center;				
+		color: #fff;
+		background-color: #c60b0b;
+		&-info {
+			margin: 7rem auto;			
+			.header {
+				font-size: 3rem;
+				line-height: 3.4rem;
+				margin: 0;
+			}
+			p {
+				font-size: 1.8rem;
+				margin-top: 3.4rem;
+				line-height: 2rem;
+			}
+			a {
+				display: block;
+				font-size: 1.8rem;
+				line-height: 2rem;
+				margin-top: 3.4rem;
+				list-style: none;
+				color: #fff;
+			}
+		}
+	}
+	&-map {
+		margin: 0;
+		padding: 0;
+		
+	}
+}
+.footer {
+	.logo {
+		
+		margin-top: 2rem;
+		&::before {
+			content: '';
+			display: inline-block;
+			height: 6rem;
+			width: 6rem;
+			background: url(../img/logo.png) center no-repeat;			
+		}		
+		p {
+			display: inline-block;
+			margin-left: 2rem;
+			font-size: 1.6rem;
+			font-weight: bold;	
+			}		
+	}
+	.sertification {
+		margin-top: 3rem;
+		font-size: 1.4rem;
+		line-height: 1.5rem;
+		text-align: center;
+		color: rgba(0, 0, 0, 0.5);
+	}
+	.adress {
+		margin-top: 2rem;
+		text-align: right;
+		font-size: 1.4rem;
+		line-height: 1.5rem;
+		font-weight: bold;
+		.phone {
+			font-size: 2.2rem;
+			
+		}
+	}
+}
